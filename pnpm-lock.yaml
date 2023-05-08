@@ -1,0 +1,33 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  bops:
+    specifier: ~1.0.0
+    version: 1.0.0
+
+devDependencies:
+  '@types/node':
+    specifier: ^20.1.0
+    version: 20.1.0
+
+packages:
+
+  /@types/node@20.1.0:
+    resolution: {integrity: sha512-O+z53uwx64xY7D6roOi4+jApDGFg0qn6WHcxe5QeqjMaTezBO/mxdfFXIVAVVyNWKx84OmPB3L8kbVYOTeN34A==}
+    dev: true
+
+  /base64-js@1.0.2:
+    resolution: {integrity: sha512-ZXBDPMt/v/8fsIqn+Z5VwrhdR6jVka0bYobHdGia0Nxi7BJ9i/Uvml3AocHIBtIIBhZjBw5MR0aR4ROs/8+SNg==}
+    engines: {node: '>= 0.4'}
+    dev: false
+
+  /bops@1.0.0:
+    resolution: {integrity: sha512-vVai54aP4LqbM+KNB1giwMo9nHvlV7pc7+iUNHYDTQe6WWI9L/jeSPBC89kUz3xA8qD7sZLldHxOXip1npWbmw==}
+    dependencies:
+      base64-js: 1.0.2
+      to-utf8: 0.0.1
+    dev: false
+
+  /to-utf8@0.0.1:
+    resolution: {integrity: sha512-zks18/TWT1iHO3v0vFp5qLKOG27m67ycq/Y7a7cTiRuUNlc4gf3HGnkRgMv0NyhnfTamtkYBJl+YeD1/j07gBQ==}
+    dev: false

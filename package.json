@@ -33,5 +33,8 @@
   },
   "dependencies": {
     "bops": "~1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0"
   }
 }
